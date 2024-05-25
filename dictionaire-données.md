@@ -13,9 +13,9 @@
 | status      | TINYINT   | NOT NULL, DEFAULT 0                             | Le statut du produit (0=non renseignée, 1=dispo, 2=pas dispo) |
 | created_at  | TIMESTAMP | NOT NULL, DEFAULT CURRENT_TIMESTAMP             | La date de création du produit                                |
 | updated_at  | TIMESTAMP | NULL                                            | La date de la dernière mise à jour du produit                 |
-| brand       | entity    | NOT NULL                                        | La marque (autre entité) du produit                           |
-| category    | entity    | NULL                                            | La catégorie (autre entité) du produit                        |
-| type        | entity    | NOT NULL                                        | Le type (autre entité) du produit                             |
+| brand       | entity    | FOREIGN KEY, NOT NULL                           | La marque (autre entité) du produit                           |
+| category    | entity    | FOREIGN KEY, NOT NULL                           | La catégorie (autre entité) du produit                        |
+| type        | entity    | FOREIGN KEY, NOT NULL                           | Le type (autre entité) du produit                             |
 
 ## Catégories (`category`)
 

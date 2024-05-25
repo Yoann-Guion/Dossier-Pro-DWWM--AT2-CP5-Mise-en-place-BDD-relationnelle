@@ -17,13 +17,12 @@ Nous avons donc une table par type de données, soit ici 4, dans lesquelles il f
 
 #### MCD
 
-MCD réalisé sur mocodo.net
-
-[]
-
+[https://github.com/Yoann-Guion/Dossier-Pro-DWWM--AT2-CP5-Mise-en-place-BDD-relationnelle/blob/master/mcd.md](MCD)
 
 #### Dictionnaire de données
 
+[https://github.com/Yoann-Guion/Dossier-Pro-DWWM--AT2-CP5-Mise-en-place-BDD-relationnelle/blob/master/dictionaire-donn%C3%A9es.md][Dictionnaire de données]
 
 #### Requêtes SQL pour créer les tables
 
+[https://github.com/Yoann-Guion/Dossier-Pro-DWWM--AT2-CP5-Mise-en-place-BDD-relationnelle/blob/master/SQL-tables.sql](SQL)
